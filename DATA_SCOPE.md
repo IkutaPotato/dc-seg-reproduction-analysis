@@ -9,6 +9,8 @@ reproduction and analysis project.
 - aggregate representation-analysis summaries;
 - selected figures used to explain the experimental findings;
 - one qualitative visualization derived from the public BraTS2020 dataset.
+- two full project reports covering the reproduction, representation analysis,
+  error decomposition, and failure-case study.
 
 ## Not included
 
@@ -19,7 +21,7 @@ reproduction and analysis project.
 - patient-level prediction archives or per-case metric exports;
 - training and evaluation logs;
 - server paths, credentials, configuration files, or migration records;
-- the private progress reports.
+- informal weekly notes and private working documents.
 
 The included CSV files were checked before publication and contain aggregate
 statistics only. BraTS data and the DC-Seg method remain subject to their
