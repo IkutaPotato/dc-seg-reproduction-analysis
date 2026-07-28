@@ -30,6 +30,19 @@ case-level prediction files are not included.
 | Reference | Authors' released `model_last` checkpoint |
 | Extended analyses | Robustness, representation probing, FP/FN decomposition, label transitions, modality attribution, failure cases |
 
+## Detailed reports
+
+1. [DC-Seg Reproduction and Representation Analysis](reports/01_DC-Seg_Reproduction_and_Representation_Analysis.pdf)  
+   Training and evaluation reproduction, all 15 missing-modality settings, and
+   quantitative analysis of modality, pre-fusion anatomical, and fused
+   anatomical representations.
+2. [DC-Seg Error Decomposition and Modality Contribution Analysis](reports/02_DC-Seg_Error_Decomposition_and_Modality_Contribution_Analysis.pdf)  
+   Region- and label-level error decomposition, context-balanced modality
+   contribution, and representative failure-case analysis.
+
+Both reports are written in Chinese, with English terminology retained for the
+main methods, metrics, and anatomical labels.
+
 ## What I did
 
 1. Reconstructed the BraTS2020 training and evaluation pipeline, including
@@ -159,6 +172,9 @@ results/
   dice_by_modality_mask.csv
   modality_clustering_summary.csv
   fusion_alignment_summary.csv
+reports/
+  01_DC-Seg_Reproduction_and_Representation_Analysis.pdf
+  02_DC-Seg_Error_Decomposition_and_Modality_Contribution_Analysis.pdf
 DATA_SCOPE.md
 README.md
 README_CN.md
