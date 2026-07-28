@@ -27,6 +27,14 @@
 | 对照模型 | 作者公开的 `model_last` checkpoint |
 | 扩展分析 | 鲁棒性、表征探测、FP/FN 分解、标签转换、模态贡献、failure cases |
 
+## 完整报告
+
+1. [DC-Seg 复现与表征分析](reports/01_DC-Seg_Reproduction_and_Representation_Analysis.pdf)  
+   包含训练与评估流程复现、全部 15 种缺失模态设置，以及 modality、fusion 前
+   anatomical 和 fusion 后 anatomical representation 的定量分析。
+2. [DC-Seg 误差分解与模态贡献分析](reports/02_DC-Seg_Error_Decomposition_and_Modality_Contribution_Analysis.pdf)  
+   包含区域级与标签级误差分解、上下文平衡的模态贡献，以及代表性 failure cases。
+
 ## 我完成的工作
 
 1. 重建 BraTS2020 训练和评估流程，包括 modality-mask sampling 与滑窗推理。
@@ -130,6 +138,7 @@ NCR/NET 到 enhancing tumor 的 `1 → 3` 混淆则是 ET 过分割的重要来�
 ```text
 figures/   经过筛选的汇总图和定性示例
 results/   仅含汇总统计的 CSV 表格
+reports/   两份完整的中文研究报告
 DATA_SCOPE.md
 README.md
 README_CN.md
