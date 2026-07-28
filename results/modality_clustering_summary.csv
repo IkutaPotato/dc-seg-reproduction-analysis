@@ -1,0 +1,3 @@
+model,kmeans_k,kmeans_ari_vs_modality,kmeans_nmi_vs_modality,silhouette_by_true_modality_cosine,silhouette_by_kmeans_cluster_cosine
+ours_epoch300,4,1.0,1.0,0.9933714,0.9933714
+paper_model_last,4,1.0,1.0,0.983957,0.983957
