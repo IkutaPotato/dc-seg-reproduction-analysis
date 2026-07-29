@@ -9,6 +9,35 @@ reproduction and analysis project.
 - aggregate representation-analysis summaries;
 - selected figures used to explain the experimental findings;
 - one qualitative visualization derived from the public BraTS2020 dataset.
+- four full project reports: English and Chinese versions of the reproduction
+  and representation-analysis report, and the error-decomposition and
+  failure-case report.
+
+## Not included
+
+- original or preprocessed MRI volumes;
+- private medical data of any kind;
+- model checkpoints or optimizer states;
+- intermediate feature arrays;
+- patient-level prediction archives or per-case metric exports;
+- training and evaluation logs;
+- server paths, credentials, configuration files, or migration records;
+- informal weekly notes and private working documents.
+
+The included CSV files were checked before publication and contain aggregate
+statistics only. BraTS data and the DC-Seg method remain subject to their
+respective original terms and attribution requirements.
+# Public data and artifact scope
+
+This repository is a presentation layer for an independent DC-Seg
+reproduction and analysis project.
+
+## Included
+
+- aggregate metrics over the 100-case BraTS2020 test split;
+- aggregate representation-analysis summaries;
+- selected figures used to explain the experimental findings;
+- one qualitative visualization derived from the public BraTS2020 dataset.
 - two full project reports covering the reproduction, representation analysis,
   error decomposition, and failure-case study.
 
